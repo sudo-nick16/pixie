@@ -161,6 +161,7 @@ Image *pixelate_img(Image *img, int px_level) {
 			ar /= px_sq;
 			ag /= px_sq;
 			ab /= px_sq;
+
 			Pixel p = {
 				.red = ar,
 				.green = ag,
